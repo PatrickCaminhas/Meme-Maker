@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 0, 0); 
+    background-color: #0c0c14; 
 }
 .container{
     
@@ -40,8 +40,8 @@ body{
 }
 
 .app{
-    border: 2px solid rgba(215, 215, 215, 0.412);
-    background-color: #24282b;
+    border: 2px solid #131317;
+    background-color: #18191e;
 
     border-radius: 10px;
 
@@ -74,18 +74,21 @@ textarea{
     font-size: 20px;
     font-weight: bolder;
     padding: 10px;
-    background-color: gold;
+    border: 2px solid goldenrod;
+    color:goldenrod;
+    background-color: #18191e;
     border-radius: 5px;
-}
-.btn-download:hover{
-    background-color: rgb(255, 115, 0);
-    
+}.btn-download:hover{
+    border: 2px solid rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
 }
 .btn-download:active{
-
-    background-color: rgb(160, 0, 0);
-    color:white;
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+    color: #18191e;
+    
 }
+
 
 .text-box{
     background-color: black;
@@ -109,7 +112,7 @@ textarea{
     border: 1px solid rgb(29, 29, 29);
     height: 100%;
     width: 100%;
-    color:white;
+    color:goldenrod;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +121,6 @@ textarea{
     position:absolute;
     bottom: 0px;
     height: auto;
-    color: white;
     font-size:larger;
     font-weight: bolder;
     text-shadow: 0 0 1em black;
