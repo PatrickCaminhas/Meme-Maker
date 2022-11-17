@@ -69,13 +69,22 @@ textarea{
     font-size: 20px;
 }
 
-#btn-download{
-    width: 100%;
+.btn-download{
+    width: 50%;
     font-size: 20px;
     font-weight: bolder;
     padding: 10px;
     background-color: gold;
     border-radius: 5px;
+}
+.btn-download:hover{
+    background-color: rgb(255, 115, 0);
+    
+}
+.btn-download:active{
+
+    background-color: rgb(160, 0, 0);
+    color:white;
 }
 
 .text-box{
@@ -89,6 +98,11 @@ textarea{
     font-size: large;
     font-family: sans-serif;
     color:white;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer{
